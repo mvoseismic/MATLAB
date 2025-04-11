@@ -1,0 +1,53 @@
+Status 3/3/2020
+
+fetchVolcstat - uses Count struture
+fetchSoufriereHypos - uses Hypo structure
+fetchSoufriereCounts - Uses Count structure
+fetchMSS1counts - uses Count structure
+fetchSelect - uses Hypo strucxture
+fetchCollect - uses Hypo structure
+fetchVTstrings - uses arrays
+hypoRate - uses Hypo and Count structures
+hypoBvalue
+hypoStats
+hypoSubset
+hypoSebsetRanges
+
+plotVolcstat - uses Count structure and plotCount
+
+Notes
+
+Bug in plotVolcstat/Multi - Y axes have wrong labels.
+
+might be more than one mag type columns in select and collect
+
+
+Work out best way to pass plot properties, line properties, axes limits etc
+
+
+new functions
+plotVertLine( optional label )
+plotVTstrings
+
+hold on after every plot
+
+dates of phases etc don't have times
+
+for hypo, calculate daily/weekly/monthly counts and mean values, return as hypo structure?
+
+check vt with L or LV or nowt
+
+read phase info into Hypo, then use it to check wierd stations
+
+barwidth isn't set in plotCollectSelect
+
+add felt events to mag plots (option)
+
+IMPORTANT
+change structure for Hypo in select and stuff
+check I have done ALLLF correct ALLLP
+move string count away from text file
+check counts from different fetches
+setStandard and setPeriod to have list options and not use file storage
+dateSpanCommon to use hashes
+remove setup.PlotBeg and setup.PlotEnd 

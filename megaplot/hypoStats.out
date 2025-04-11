@@ -1,0 +1,44 @@
+hypoStats: 09-Jan-2020 12:50:29
+
+total events:                2271
+total T  events:                0
+total R  events:                0
+total L  events:                1
+total LV events:             2270
+total LV t events:           2271   (VT)
+total LV h events:              0   (hybrid)
+total LV l events:              0   (LP)
+total LV e events:              0   (LP/rockfall)
+total LV r events:              0   (rockfall)
+total LV x events:              0   (explosion)
+total LV s events:              0   (swarm)
+total LV n events:              0   (noise)
+total LV m events:              0   (monochromatic)
+total located events:        2157
+total events in strings:      747
+
+total events:                2271
+       par              mean               max               min              nNan
+     otime      735849.92667      737796.36731      734180.87040                 0
+       lat          16.71432          16.75036          16.62123               114
+       lon         -62.17828         -62.11996         -62.23365               114
+       dep           1.49825           9.09000          -1.23700               114
+       rms           0.15577           1.57000           0.00000               114
+       gap         120.15438         328.00000          55.00000               114
+    err_ot           0.39172           2.15000           0.21000               114
+   err_lat           0.87608          11.70000           0.30000               114
+   err_lon           0.75790          15.20000           0.20000               114
+   err_dep           2.03380         153.80000           0.40000               114
+    cov_xy           0.29115         150.50000         -51.98000               114
+    cov_xz          -0.76142         118.60000       -2333.00000               114
+    cov_yz          -0.87978          68.89000       -1518.00000               114
+     datim      735849.92666      737796.36731      734180.87040                 0
+      nsta           8.23469          16.00000           3.00000               115
+       mag           1.72234           3.90000           0.40000               131
+
+par: loc_agency      unique values:              38
+MVO        2233
+par:   mag_type      unique values:             131
+  L        2140
+par: mag_agency      unique values:             131
+MVO        2140

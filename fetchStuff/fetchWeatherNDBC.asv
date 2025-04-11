@@ -1,0 +1,32 @@
+function fetchWeatherNDBC( setup, ouf )
+% 
+% Fetches data from NDBC weather buoy and saves them as MATLAB arrays
+%
+% R.C. Stewart 17-Oct-2021
+
+data_file = 'all42060.txt';
+data_file = fullfile( setup.DirNDBC, data_file );
+
+B = readtable( data_file );
+datimB42060 = datenum(B.Var1, B.Var2, B.Var3, B.Var4, B.Var5, 0 );
+waveDirB42060 = B.Var12;
+waveDirB42060( waveDirB42060 > 900 ) = NaN;
+waveHeightB42060 = B.Var9;
+waveHeightB42060( waveHeightB42060 == 99 ) = NaN;
+windSpeedB42060  = B.Var7;
+windDirB42060  = B.Var6;
+windDirB42060( windDirB42060 == 999 ) = NaN;
+
+fprintf( 1, "==== fetchWeatherNDBC\n" );
+if nargin == 2
+    fprintf( ouf, "==== fetchWeatherNDBC\n" );
+    fprintf( ouf, "\n" );
+end
+
+data_file = fullfile( setup.DirMegaplotData, 'fetchedWeatherNDBC.mat' );
+
+save( data_file, 'datimB42060','waveHeightB42060', 'waveDirB42060', ...
+    'windSpeedB42060', 'windDirB42060' );
+
+
+return

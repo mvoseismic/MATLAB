@@ -1,0 +1,39 @@
+Megaplot2
+ Started                           03-Mar-2020 16:56:34
+
+ Global setup
+  Mode:                            batch
+  Input file:                      
+  Log file:                        ./megaplot2.out
+  Directory for SEISAN counts:     /Users/stewart/data/_local/MVO/Monitoring_Data/seisan
+  Directory for seismic data:      /Users/stewart/data/_local/MVO/Monitoring_Data/seismic
+  Directory for megaplot data:     /Users/stewart/data/_local/MVO/Monitoring_Data/megaplot2
+  Log to file:                     true
+  Log to screen:                   false
+  Plot to file:                    true
+  Plot to screen:                  false
+  Start date/time for data:        11-Feb-2010 00:00:00
+  End date/time for data:          01-Apr-2020 00:00:00
+  Start date/time for plot:        11-Feb-2010 00:00:00
+  End date/time for plot:          01-Apr-2020 00:00:00
+  Name:                            
+  Standard plot:                   
+  Time period of plot:             Pause5
+  Plot date limits:                01-Jan-1995 - 04-Mar-2020
+  Plot magnitude limits:           -Inf -  Inf
+  Plot depth limits:                 0.0 -   Inf
+  Daily counts rebinned:           yes
+  Size:                            A4
+  Orientation:                     landscape
+  Type:                            symbol
+  Colour:                          r
+  Symbol:                          o
+  Line type:                       -
+  Font size:                       14
+  Subplot spacing:                 normal
+  Subplot X axis:                  normal
+  Number of subplots:              1
+  Footer:                          MVO, 03-Mar-2020
+
+ Finished                          03-Mar-2020 16:56:35
+  Elapsed time:                    3.097715e+00 seconds

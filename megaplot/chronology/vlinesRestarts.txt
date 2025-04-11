@@ -1,0 +1,6 @@
+datetime, style, width, labelloc, label, labeloff,labelsize, box
+15-Nov-1995, k-, 1.0, 80, Phase 1 extrusion, 0.5, 10, 1
+27-Nov-1999, k-, 1.0, 80, Phase 2 extrusion, 0.5, 10, 1
+08-Aug-2005, k-, 1.0, 80, Phase 3 extrusion, 0.5, 10, 1
+29-Jul-2008, k-, 1.0, 80, Phase 4 extrusion, 0.5, 10, 1
+09-Oct-2009, k-, 1.0, 80, Phase 5 extrusion, 0.5, 10, 1
