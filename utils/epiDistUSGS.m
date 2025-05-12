@@ -10,15 +10,15 @@ function arclen = epiDistUSGS( lonLatString )
 out2 = sscanf(lonLatString, '%f°%c %f°%c');
 
 if out2(2) == 83
-    lonQuake = -1 * out2(1);
+    latQuake = -1 * out2(1);
 else
-    lonQuake = out2(1);
+    latQuake = out2(1);
 end
 
 if out2(4) == 87
-    latQuake = -1 * out2(3);
+    lonQuake = -1 * out2(3);
 else
-    latQuake = out2(3);
+    lonQuake = out2(3);
 end
 
 arclen = epiDist( latQuake, lonQuake );
