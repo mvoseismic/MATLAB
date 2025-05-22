@@ -20,11 +20,11 @@ if strcmpi( getGps, 'Y' )
     disp( 'reFetchGps: please wait' );
 
     fprintf( 1, "==== copying GPS text files\n" );
-    cd '/home/seisan/projects/megaplot/data/gps/gps-auto-final';
+    cd '/home/seisan/src/megaplot/data/gps/gps-auto-final';
     dirGpsFinal = '/mnt/volcano01/Deformation/GPS_auto/data/final';
     copyfile( [dirGpsFinal '/*.txt'], '.' );
 
-    cd '/home/seisan/projects/megaplot';
+    cd '/home/seisan/src/megaplot';
     fprintf( 1, "==== fetch_gps_auto_final_all\n" );
     fetch_gps_auto_final_all;
 

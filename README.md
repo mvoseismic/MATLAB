@@ -1,5 +1,7 @@
 # MATLAB
- 
+
+## ~/src/MATLAB
+
 My matlab scripts.
 
 Not really under version control. Just here as a backup.
