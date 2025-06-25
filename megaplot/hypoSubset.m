@@ -60,6 +60,9 @@ for igid = 1:length( gids )
         case 'loc'
             id_gid = [HypoIn.located];
            
+        case 'bigvt'
+            id_gid = [HypoIn.located];
+           
     end
     
     if exist( 'id_gid', 'var' )

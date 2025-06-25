@@ -108,6 +108,7 @@ setup.DirLog = '.';
 setup.FileLog = 'megaplot2.out';
 
 % Data directories
+setup.DirMonitoring = fullfile( setup.DirBase, 'monitoring_data' );
 setup.DirSeisanCounts = fullfile( setup.DirBase, 'monitoring_data/seisan' );
 setup.DirMegaplotData = fullfile( setup.DirBase, 'monitoring_data/megaplot2' );
 setup.DirHome = getenv('HOME');
@@ -124,6 +125,7 @@ setup.DirKestrel = fullfile( setup.DirStuff, 'data/weather/Kestrel5500--LOCAL_TI
 setup.DirMseed = fullfile( setup.DirBase2, 'mseed' );
 setup.DirDem = fullfile( setup.DirStuff, 'data/geographic/DEM/SHV_DEM_data' );
 setup.DirStatus = fullfile( setup.DirBase, 'monitoring_data/status' );
+setup.DirStatusMonitoring = fullfile( setup.DirBase, 'monitoring_data/statusMonitoring' );
 
 % Output options
 setup.Log2File = true;
