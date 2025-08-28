@@ -45,7 +45,4 @@ end
 datetimRainChanWx = datetimRainChanWx(idx);
 rainChanWx = rainChanWx( idx );
 
-plot( datimRainChanWx, cumsum(rainChanWx), 'r-' );
-
-
 save( fileWeatherRainSave, "datimRainChanWx", "rainChanWx" );
