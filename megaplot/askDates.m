@@ -5,8 +5,8 @@ if ~exist('endPlotDef','var')
     endPlotDef = 'now';
 end
 
-begPlot = inputd( 'Start date for plot (dd/mm/yyyy)', 's', begPlotDef );
+begPlot = inputd( 'Start date for plot (dd/mm/yyyy or yyyy-mm-dd HH:MM)', 's', begPlotDef );
 plotBeg = dateCommon( begPlot );
 
-endPlot = inputd( 'End date for plot (dd/mm/yyyy)', 's', endPlotDef );
+endPlot = inputd( 'End date for plot (dd/mm/yyyy or yyyy-mm-dd HH:MM)', 's', endPlotDef );
 plotEnd = dateCommon( endPlot );

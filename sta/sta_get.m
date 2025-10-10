@@ -9,7 +9,7 @@ setup = setupGlobals();
 dir_here = pwd;
 %dir_ss = '/Users/stewart/trav/data/seismic/SeismicStations';
 %dir_ss = '/Users/stewart/OneDrive - The University of the West Indies/data/seismic/SeismicStations';
-dir_ss = fullfile( setup.DirStuff, 'data/seismic/SeismicStations' );
+dir_ss = fullfile( setup.DirStuff, 'src/SeismicStations' );
 
 cd( dir_ss );
 
