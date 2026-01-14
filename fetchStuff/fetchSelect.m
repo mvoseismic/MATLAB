@@ -40,8 +40,11 @@ evid = 0;
 
 while ischar(tline)
     
-    card = tline(80);
-        
+    if length( tline ) < 80
+        card = ' ';
+    else
+        card = tline(80);
+    end    
 
     switch card
         
